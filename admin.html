@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Submissions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="adminPage">
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="/"><img src="assets/college-hub-india-logo.jpeg" alt="college hub india logo"> college hub india</a>
+      <nav class="mainnav" aria-label="Admin navigation">
+        <a href="/">College Page</a>
+        <a class="live" href="/admin.html">Backend Applications</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap adminMain">
+    <section class="panel">
+      <div class="adminHead">
+        <div>
+          <h1>Application Submissions</h1>
+          <p>Form entries saved by the local backend.</p>
+        </div>
+        <button class="primary" id="refreshApplications" type="button">Refresh</button>
+      </div>
+
+      <div class="filters">
+        <label>
+          <span>View</span>
+          <select id="statusFilter">
+            <option value="active">Active Leads</option>
+            <option value="trash">Trash</option>
+            <option value="all">All Leads</option>
+          </select>
+        </label>
+        <label>
+          <span>College</span>
+          <select id="collegeFilter">
+            <option value="">All Colleges</option>
+          </select>
+        </label>
+        <label>
+          <span>State</span>
+          <select id="stateFilter">
+            <option value="">All States</option>
+          </select>
+        </label>
+        <label>
+          <span>Source</span>
+          <select id="sourceFilter">
+            <option value="">All Sources</option>
+          </select>
+        </label>
+        <label class="searchFilter">
+          <span>Search</span>
+          <input id="searchFilter" type="search" placeholder="Name, email, mobile, course">
+        </label>
+        <button class="secondaryBtn" id="clearFilters" type="button">Clear</button>
+      </div>
+
+      <p class="leadCount" id="leadCount">0 leads</p>
+
+      <div class="tableWrap">
+        <table class="adminTable">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Name</th>
+              <th>Course</th>
+              <th>Email</th>
+              <th>Mobile</th>
+              <th>State</th>
+              <th>College</th>
+              <th>Source</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="applicationsBody">
+            <tr><td colspan="10">Loading applications...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1777548705853-87c79ef3",
+    "college": "JECRC University, Jaipur",
+    "course": "B.Tech. Computer Science and Engineering",
+    "fullName": "Gaurav Mahlawat",
+    "email": "gauravmahlawat17@gmail.com",
+    "mobile": "+918094103432",
+    "state": "Rajasthan",
+    "source": "sidebar",
+    "status": "active",
+    "createdAt": "2026-04-30T11:31:45.854Z"
+  },
+  {
+    "status": "active",
+    "id": "1777457506890-6f48c4ee",
+    "college": "JECRC University, Jaipur",
+    "course": "B.Tech. Computer Science and Engineering",
+    "fullName": "Raj Kumar",
+    "email": "amitgaruwala@gmail.com",
+    "mobile": "91271892198",
+    "state": "Kerala",
+    "source": "sidebar",
+    "createdAt": "2026-04-29T10:11:46.891Z"
+  },
+  {
+    "status": "trash",
+    "id": "1777455815908-5ba5288b",
+    "college": "Vivekananda Global University, Jaipur",
+    "course": "B.Tech Civil Engineering",
+    "fullName": "asdkaskjd",
+    "email": "amitgaruwala@gmail.com",
+    "mobile": "09129102",
+    "state": "Odisha",
+    "source": "vgu-sidebar",
+    "createdAt": "2026-04-29T09:43:35.908Z",
+    "updatedAt": "2026-04-29T09:50:35.117Z"
+  },
+  {
+    "status": "trash",
+    "id": "1777455061430-d82229e9",
+    "college": "JECRC University, Jaipur",
+    "course": "B.Tech. Civil Engineering (L&T EduTech)",
+    "fullName": "amkij",
+    "email": "luvusaloni@yahoo.co.in",
+    "mobile": "7867898997",
+    "state": "Odisha",
+    "source": "sidebar",
+    "createdAt": "2026-04-29T09:31:01.430Z",
+    "updatedAt": "2026-04-29T09:50:37.968Z"
+  },
+  {
+    "status": "trash",
+    "id": "1777454621112-9472df5d",
+    "college": "University of Engineering and Management",
+    "course": "Bachelor of Technology [B.Tech]",
+    "fullName": "Gaurav Mahlawat",
+    "email": "gauravmahlawat17@gmail.com",
+    "mobile": "8094103432",
+    "state": "Rajasthan",
+    "source": "modal",
+    "createdAt": "2026-04-29T09:23:41.112Z",
+    "updatedAt": "2026-04-29T09:50:40.095Z"
+  },
+  {
+    "status": "trash",
+    "id": "1777454105895-b89114d9",
+    "college": "JECRC University, Jaipur",
+    "course": "B.Tech",
+    "fullName": "Gaurav",
+    "email": "amitgaruwala@gmail.com",
+    "mobile": "8094104342",
+    "state": "Rajasthan",
+    "source": "sidebar",
+    "createdAt": "2026-04-29T09:15:05.895Z",
+    "updatedAt": "2026-04-29T09:50:41.480Z"
+  }
+]
