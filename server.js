@@ -215,7 +215,10 @@ const server = http.createServer((request, response) => {
     return;
   }
 
-  serveFile(request, response);
+  response.writeHead(200, {
+  "Content-Type": "text/plain"
+});
+response.end("API is running...");
 });
 
 server.listen(PORT, () => {
